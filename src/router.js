@@ -32,12 +32,12 @@ const router = new VueRouter({
     ]
 })
 
-router.beforeEach((to, from, next) => {
-    if(to.path !== '/'){
-        next('/')
-    } else {
-        next()
-    }
-})
+// router.beforeEach((to, from, next) => {
+//     if(to.path !== '/'){
+//         next('/')
+//     } else {
+//         next()
+//     }
+// })
 
 export default router
